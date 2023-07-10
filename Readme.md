@@ -12,7 +12,8 @@ This sample app is a simple Python FastAPI application that returns a "Hello, wo
 
 ## Why use Mangum?
 
-Normally it you can deploy python functions to AWS lambda and and map each function to an endpoint but with the help of Mangum you can deploy a python FastAPI application to AWS Lambda and map all the endpoints to a single lambda function.
+Normally you can deploy python functions to AWS lambda and and map each function to an endpoint but with the help of Mangum you can deploy a python FastAPI application to AWS Lambda and map all the endpoints to a single lambda function.
+Mangum is a Python ASGI adapter for AWS Lambda and API Gateway. It allows you to run an ASGI application, such as FastAPI, on AWS Lambda and API Gateway.
 
 ### Prerequisites
 
